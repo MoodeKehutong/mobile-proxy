@@ -14,7 +14,7 @@ mobile-proxy
 
 ### 配置
 
-在nginx.conf中的http块中添加一行
+在nginx.conf `/usr/local/etc/nginx/nginx.conf` 中的http块中添加一行
 ```
 include path/to/your/mobile-proxy/etc/nginx/mobile-proxy.conf;
 ```
@@ -33,7 +33,7 @@ sudo nginx -s stop
 ## squid
 
 ### 配置
-在squid.conf(/usr/local/opt/squid/etc/squid.conf) 结尾中添加一行
+在squid.conf `/usr/local/opt/squid/etc/squid.conf` 结尾中添加一行
 ```
 include path/to/your/mobile-proxy/etc/squid/mobile-proxy.conf
 ```

@@ -9,7 +9,7 @@ mobile-proxy
 
 在nginx.conf中的http块中添加一行
 ```
-include path/to/your/mobile-proxy/etc/nginx/mobile-proxy.conf
+include path/to/your/mobile-proxy/etc/nginx/mobile-proxy.conf;
 ```
 
 ## 启动
